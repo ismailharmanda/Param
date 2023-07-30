@@ -49,3 +49,14 @@ export const toFixedNumber = (
   const pow = Math.pow(base ?? 10, digits);
   return Math.round(num * pow) / pow;
 };
+
+export const formatDate = (date: Date): string => {
+  const options: Intl.DateTimeFormatOptions = {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+  };
+  return new Date(date).toLocaleString('tr-TR', options);
+};
