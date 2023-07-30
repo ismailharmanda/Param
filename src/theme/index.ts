@@ -35,7 +35,7 @@ export const theme = {
   },
   colors: {
     base: {
-      transparent: 'rgba(255, 255, 255, 0)',
+      transparent: 'rgba(255, 255, 255, 0.2)',
       black: '#000000',
       white: '#ffffff',
       dark: '#5A5A5A',
@@ -90,8 +90,9 @@ export const theme = {
     },
   },
   spacing: {
-    xs: 4,
-    sm: 8,
+    xxs: 4,
+    xs: 8,
+    sm: 12,
     md: 16,
     lg: 24,
     xl: 32,
