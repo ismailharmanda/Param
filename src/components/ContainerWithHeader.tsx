@@ -45,7 +45,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: theme.spacing.screenHorizontalPadding,
     alignItems: 'center',
     backgroundColor: theme.colors.base.white,
-    gap: theme.spacing.lg,
   },
   header: {
     justifyContent: 'space-between',
