@@ -33,8 +33,8 @@ export const theme = {
       dark: '#5A5A5A',
     },
     primary: {
-      regular: 'rgb(61,40,82)',
-      transparent: 'rgba(61,40,82,0.6)',
+      regular: 'rgb(74, 8, 135)',
+      transparent: 'rgba(74, 8, 135, 0.6)',
     },
     secondary: {
       regular: 'rgb(242,242,249)',

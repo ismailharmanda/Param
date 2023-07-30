@@ -1,9 +1,10 @@
-import {View, Text} from 'react-native';
+import {Text} from 'react-native';
+import {ContainerWithHeader} from 'components/ContainerWithHeader';
 
 export const HomeScreen = () => {
   return (
-    <View>
+    <ContainerWithHeader>
       <Text>Home</Text>
-    </View>
+    </ContainerWithHeader>
   );
 };
