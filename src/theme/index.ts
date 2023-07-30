@@ -3,6 +3,10 @@ export const theme = {
   text: {
     fontFamily: 'Mark-Pro',
     size: {
+      xxl: {
+        fontSize: 32,
+        lineHeight: 38.4,
+      },
       xl: {
         fontSize: 28,
         lineHeight: 33.6,
@@ -23,6 +27,10 @@ export const theme = {
         fontSize: 12,
         lineHeight: 14.4,
       },
+      xxs: {
+        fontSize: 10,
+        lineHeight: 12,
+      },
     },
   },
   colors: {
@@ -31,6 +39,7 @@ export const theme = {
       black: '#000000',
       white: '#ffffff',
       dark: '#5A5A5A',
+      text: '#C2BBCF',
     },
     primary: {
       regular: 'rgb(74, 8, 135)',
