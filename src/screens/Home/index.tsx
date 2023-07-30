@@ -1,10 +1,10 @@
-import {Text} from 'react-native';
 import {ContainerWithHeader} from 'components/ContainerWithHeader';
+import {Wallet} from 'components/Wallet';
 
 export const HomeScreen = () => {
   return (
     <ContainerWithHeader>
-      <Text>Home</Text>
+      <Wallet currency="GBP" balance={19600.75} />
     </ContainerWithHeader>
   );
 };
