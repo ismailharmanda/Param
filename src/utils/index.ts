@@ -34,3 +34,9 @@ export const passwordValidator = (password: string): string => {
 
   return '';
 };
+
+export const formatter = (currency: Intl.NumberFormatOptions['currency']) =>
+  new Intl.NumberFormat('default', {
+    style: 'currency',
+    currency: currency,
+  });
