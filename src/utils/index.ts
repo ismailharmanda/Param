@@ -40,3 +40,12 @@ export const formatter = (currency: Intl.NumberFormatOptions['currency']) =>
     style: 'currency',
     currency: currency,
   });
+
+export const toFixedNumber = (
+  num: number,
+  digits: number,
+  base?: number,
+): number => {
+  const pow = Math.pow(base ?? 10, digits);
+  return Math.round(num * pow) / pow;
+};
