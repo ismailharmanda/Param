@@ -14,7 +14,7 @@ const WIDTH = Dimensions.get('window').width;
 export const ContainerWithHeader = ({children, containerStyle}: Props) => (
   <View style={[styles.container, containerStyle]}>
     <View style={styles.header}>
-      <Watermark style={{position: 'absolute'}} />
+      <Watermark style={styles.watermark} />
       <Image
         testID="avatar"
         source={require('../assets/avatar.png')}
@@ -68,4 +68,5 @@ const styles = StyleSheet.create({
     width: 32,
     height: 32,
   },
+  watermark: {position: 'absolute'},
 });
