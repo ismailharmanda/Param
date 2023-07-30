@@ -3,6 +3,7 @@ import {Wallet} from 'components/Wallet';
 import {TextWithIcon} from 'components/TextWithIcon';
 import {Dimensions, StyleSheet, View} from 'react-native';
 import {theme} from 'theme';
+import {ActionButtonsBlock} from 'components/ActionButtonsBlock';
 
 const WIDTH = Dimensions.get('window').width;
 
@@ -22,6 +23,12 @@ export const HomeScreen = () => {
           icon="check-circle-outline"
         />
       </View>
+      <ActionButtonsBlock
+        leftText="Para Gönder"
+        rightText="Para Yükle"
+        leftIcon="user"
+        rightIcon="credit-card"
+      />
     </ContainerWithHeader>
   );
 };
