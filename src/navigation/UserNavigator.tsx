@@ -3,6 +3,7 @@ import {createMaterialBottomTabNavigator} from '@react-navigation/material-botto
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {ProfileScreen} from 'screens/Profile';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import Feather from 'react-native-vector-icons/Feather';
 import {theme} from 'theme';
 import {HomeScreen} from 'screens/Home';
 
@@ -61,8 +62,8 @@ export const UserNavigator = () => {
         options={{
           tabBarLabel: 'Profile',
           tabBarIcon: ({color, focused}) => (
-            <MaterialCommunityIcons
-              name="home"
+            <Feather
+              name="user"
               color={focused ? theme.colors.primary.regular : color}
               size={26}
             />
