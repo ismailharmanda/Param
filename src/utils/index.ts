@@ -57,6 +57,7 @@ export const formatDate = (date: string): string => {
     year: 'numeric',
     hour: 'numeric',
     minute: 'numeric',
+    hour12: false,
   };
   return new Date(date).toLocaleString('tr-TR', options);
 };
