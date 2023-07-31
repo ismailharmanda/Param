@@ -21,7 +21,7 @@ export const user = {
       date: '2023-02-18T14:24:00',
       description: 'Yerel',
       name: 'Emin Can Yılmaz',
-      amount: -15000,
+      amount: 15000,
       currency: 'GBP',
     },
     {
