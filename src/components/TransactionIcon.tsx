@@ -13,11 +13,11 @@ export const TransactionIcon = ({type, style}: Props) => {
   let iconComponent;
 
   if (type === 'Para Yükle') {
-    iconComponent = <World style={style} />;
-  } else if (type === 'Uluslararası') {
-    iconComponent = <Arrow style={style} />;
-  } else if (type === 'Yerel') {
     iconComponent = <Wallet style={style} />;
+  } else if (type === 'Uluslararası') {
+    iconComponent = <World style={style} />;
+  } else if (type === 'Yerel') {
+    iconComponent = <Arrow style={style} />;
   }
 
   return <View style={styles.container}>{iconComponent}</View>;
