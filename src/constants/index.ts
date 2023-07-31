@@ -6,7 +6,7 @@ export const user = {
     amount: 19600.75,
   },
   accountNumber: '00000000',
-  sortCode: '04-14-11',
+  sortCode: '04-14-21',
   transactions: [
     {
       id: 1,
