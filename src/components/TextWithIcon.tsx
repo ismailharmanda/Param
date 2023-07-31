@@ -1,5 +1,11 @@
 import React from 'react';
-import {StyleSheet, View, Dimensions, Text} from 'react-native';
+import {
+  StyleSheet,
+  View,
+  Dimensions,
+  Text,
+  TouchableOpacity,
+} from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import {theme} from 'theme';
@@ -18,11 +24,13 @@ export const TextWithIcon = ({leftText, rightText, icon}: Props) => {
       <Text style={styles.text}>{leftText}</Text>
       <View style={styles.rightWrapper}>
         <Text style={styles.text}>{rightText}</Text>
-        <MaterialCommunityIcons
-          name={icon}
-          color={theme.colors.base.text}
-          size={20}
-        />
+        <TouchableOpacity>
+          <MaterialCommunityIcons
+            name={icon}
+            color={theme.colors.base.text}
+            size={20}
+          />
+        </TouchableOpacity>
       </View>
     </View>
   );
