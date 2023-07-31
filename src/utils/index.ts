@@ -50,7 +50,7 @@ export const toFixedNumber = (
   return Math.round(num * pow) / pow;
 };
 
-export const formatDate = (date: Date): string => {
+export const formatDate = (date: string): string => {
   const options: Intl.DateTimeFormatOptions = {
     day: 'numeric',
     month: 'long',
