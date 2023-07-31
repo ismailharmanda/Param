@@ -32,5 +32,13 @@ export const user = {
       amount: -100,
       currency: 'GBP',
     },
+    {
+      id: 4,
+      date: '2023-02-18T14:24:00',
+      description: 'Uluslararası',
+      name: 'İsmail Harmanda',
+      amount: -1000,
+      currency: 'TRY',
+    },
   ],
 };
