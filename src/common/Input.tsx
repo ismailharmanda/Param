@@ -38,6 +38,7 @@ export const Input = ({
       onChangeText={onChangeText}
       style={styles.input}
       placeholder={placeholder}
+      placeholderTextColor="#cccccc"
       {...props}
     />
     {!!errorText && <Text style={styles.error}>{errorText}</Text>}
